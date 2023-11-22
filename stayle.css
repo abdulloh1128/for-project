@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none   ;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header_nav{
+    top: 20px;
+   
+}
+
+header{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+}
+.header_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.logo{
+    position: absolute;
+}
+
+nav{
+    margin-top: 30px; 
+    margin-left: 30px;
+}
+.div_ul{
+    display: flex;
+    gap: 7px;
+}
+
+
+.div_ul li{
+    margin-top: 10px;   
+}
+
+.main1{
+    background: #FED036;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main1_tex{
+    margin-left: 150px;
+}
+.main1_tex h2{
+    color: #3E3E3E;
+font-family: Proxima Nova;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.main1_tex h1{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+}
+.main1_tex h4{
+    color: #3E3E3E;
+font-family: Proxima Nova;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.main1_tex {      
+    margin-top: 50px; 
+}
+
+.main1-icon{
+    display: flex;
+}
+
+.main1-icon h4{
+    margin-left: 10px;
+}
+.main_btn button ,input{
+    width: 160px;
+    height: 50px;
+    text-align: center;
+}
+.main_btn button{
+    color: #FFF;
+    border-radius: 3px;
+background: #3C93F0;
+border: 1px white;
+
+
+}
